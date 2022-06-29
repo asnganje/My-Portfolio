@@ -1,0 +1,38 @@
+
+body {
+    background: #E5E5E5;
+}
+.nav1 {
+    position: absolute;
+    width: 375px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+    background: #3C3A39;
+    
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 590px;
+    width: 375px;
+    left: 0px;
+    top: 92px;
+    border-radius: 0px;
+    padding: 120px, 24px;
+    position: absolute;
+    background: #1C1A19;
+    
+
+}
+
+.newn{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
