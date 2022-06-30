@@ -1,7 +1,7 @@
 
 body {
   background: #e5e5e5;
-  margin: 0px;
+  margin: 0;
 }
 
 .topbar {
@@ -11,8 +11,8 @@ body {
   position: absolute;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .logo {
@@ -27,17 +27,17 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 46px;  
+  margin-top: 46px;
 }
 
 .menu-icon {
   margin-left: auto;
   margin-top: 53px;
-  padding: 12px 25px;  
+  padding: 12px 25px;
 }
 
 .headline {
@@ -48,11 +48,11 @@ body {
   gap: 12px;
   height: 590px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 92px;
-  border-radius: 0px;
+  border-radius: 0;
   position: absolute;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .title {
@@ -64,8 +64,8 @@ body {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
-  margin: 0px 0px;
+  color: #ff6b00;
+  margin: 0;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -81,9 +81,9 @@ body {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
-  margin: 0px 0px;
-  padding: 0px;
+  color: #fff5e1;
+  margin: 0;
+  padding: 0;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -97,9 +97,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
-  padding: 0px;
-  margin: 0px 0px;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -120,7 +120,7 @@ body {
   right: 0%;
   top: 65.59%;
   bottom: 9.36%;
-  background: #FFFFFF;
-  border: 0.496227px solid #FF6B00;
+  background: #ffffff;
+  border: 0.496227px solid #ff6b00;
   transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
