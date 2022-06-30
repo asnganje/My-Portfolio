@@ -24,7 +24,6 @@ a {
   background-image: url("./images/illustration-header-mobile.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
- 
 }
 
 .myLogo {
@@ -53,10 +52,7 @@ a {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   background-color: rgb(253, 242, 242);
-
 }
-
-
 
 .text-header {
   font-family: 'Crete Round', serif;
