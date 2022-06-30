@@ -21,11 +21,3 @@ Portfolio
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdulrahman-nganje-a6436935/)
 
 
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## Show your support
-
-Give a ⭐️ if you like this project!
