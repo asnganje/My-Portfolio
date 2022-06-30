@@ -1,7 +1,37 @@
 
 body {
     background: #E5E5E5;
+    margin: 0;
 }
+
+.topbar {
+    display: flex;
+    background-color: #3c3a39;
+    color: #fff;
+}
+
+.logo {
+    padding: 12px 25px;
+}
+
+.menu-icon {
+    margin-left: auto;
+    padding: 12px 25px;
+}
+
+.headline {
+    
+    padding: 120px 24px 12px;
+    background-image: url(images/backgroud-drawing.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.social-media {
+    display: flex;
+    gap: 24px;
+}
+/*
 .nav1 {
     position: absolute;
     width: 375px;
