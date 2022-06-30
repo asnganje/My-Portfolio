@@ -8,8 +8,9 @@
 .topbar {
   display: flex;
   background: #3c3a39;
-  justify-content: space-around;
-  width: 99%;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 a {
@@ -17,12 +18,13 @@ a {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   background-image: url("./images/illustration-header-mobile.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 30% 25%;
-  height: 100vh;
+  background-position: right bottom;
+ 
 }
 
 .myLogo {
@@ -31,14 +33,30 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  padding: 56px 24px 12px 24px;
+  padding: 24px 12px;
 }
 
-.dropMenu {
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  cursor: pointer;
   width: 15%;
-  margin-right: 10%;
-  padding: 56px 24px 12px 24px;
+  padding: 24px 5px;
 }
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 2px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(253, 242, 242);
+
+}
+
+
 
 .text-header {
   font-family: 'Crete Round', serif;
@@ -80,8 +98,9 @@ a {
   display: flex;
   gap: 20px;
   width: 200px;
-  height: 40px;
+  height: 15px;
   padding: 12px 24px;
+  margin-bottom: 150px;
   align-items: baseline;
   align-content: center;
 }
@@ -92,5 +111,5 @@ li {
 
 .links {
   width: 37.99px;
-  height: 20px;
+  height: 10px;
 }
