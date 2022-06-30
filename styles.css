@@ -19,7 +19,7 @@ body {
   padding: 12px 25px;
   width: 77px;
   height: 24px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -58,7 +58,7 @@ body {
 .title {
   width: 327px;
   height: 124px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -74,7 +74,7 @@ body {
 .subtitle {
   width: 327px;
   height: 27px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -92,7 +92,7 @@ body {
 .description {
   width: 327px;
   height: 123px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
