@@ -124,7 +124,7 @@ ul {
   padding: 0;
   margin: 0;
 }
- 
+
 .title {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -365,4 +365,146 @@ ul {
 .about-icon {
   height: 18px;
   width: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin: 120px 24px 73px 24px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.div-intermediate1 {
+  border-radius: 10px solid black;
+  width: auto;
+  height: 1px;
+  background-color: #dfe1e6;
+  margin: 0 38px 39px 38px;
+}
+
+.div-intermediate2 {
+  border-radius: 10px solid black;
+  width: auto;
+  height: 1px;
+  background-color: #dfe1e6;
+  margin: 0 38px 0 38px;
+}
+
+.name {
+  margin: 0 40px 14px 50px;
+  color: #979493;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+}
+
+.email {
+  margin: 0 40px 14px 50px;
+  color: #979493;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+}
+
+.info {
+  margin: 24px 38px 24px 38px;
+  width: auto;
+  height: 114px;
+  border: none;
+  background-color: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12px;
+  line-height: 24px;
+}
+
+.button4 {
+  background: #ff6b00;
+  color: #fff;
+  width: 131px;
+  height: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  margin: auto;
+  transition: all 1s linear;
+}
+
+.button4:hover {
+  background-color: #ff6b00;
+}
+
+.social-media2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 130px;
+}
+
+.div-mid {
+  border-radius: 10px solid black;
+  height: 2px;
+  width: 100%;
+  margin: 136px 0 25px 0;
+  background-color: #dfe1e6;
+}
+
+.div-low {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: #1c1a19;
+  width: 108px;
+  height: 5px;
+  margin: 23px 121px 8px 150px;
+  border-radius: 8px;
+}
+
+.s1 {
+  color: #505f79;
+}
+
+.s2 {
+  color: #505f79;
+}
+
+.s3 {
+  color: #505f79;
+}
+
+.s4 {
+  color: #505f79;
+}
+
+.s5 {
+  color: #505f79;
 }
