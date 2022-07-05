@@ -123,7 +123,7 @@ ul {
   gap: 12px;
   padding: 0;
   margin: 0;
-} 
+}
 
 .title {
   font-family: 'Crete Round', serif;
@@ -380,7 +380,7 @@ ul {
   margin: 120px 24px 73px 24px;
 }
 
-.form1{
+.form1 {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -390,9 +390,10 @@ ul {
   border-radius: 10px solid black;
   width: auto;
   height: 1px;
-  background-color: #dFe1e6;
+  background-color: #dfe1e6;
   margin: 0 38px 39px 38px;
 }
+
 .div-intermediate2 {
   border-radius: 10px solid black;
   width: auto;
@@ -400,6 +401,7 @@ ul {
   background-color: #dFe1e6;
   margin: 0 38px 0 38px;
 }
+
 .name {
   margin: 0 40px 14px 40px;
 }
@@ -434,6 +436,7 @@ ul {
 .button4:hover {
   background-color: #ff6b00;
 }
+
 .social-media2 {
   display: flex;
   flex-direction: row;
@@ -479,5 +482,3 @@ ul {
 .s5 {
   color: #505f79;
 }
-
-
