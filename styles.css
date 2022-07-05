@@ -118,25 +118,13 @@ li {
   padding: 10px;
 }
 
-/* ul {
+ul {
   display: flex;
   gap: 12px;
   padding: 0;
   margin: 0;
-} */
-
-.left {
-  float: left;
 }
-
-.right {
-  float: right;
-}
-
-.inherited {
-  float: inherit;
-}
-
+ 
 .title {
   font-family: 'Crete Round', serif;
   font-style: normal;
