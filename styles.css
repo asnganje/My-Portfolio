@@ -404,18 +404,47 @@ ul {
 
 .name {
   margin: 0 40px 14px 40px;
+  color: #979493;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px/2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
 }
 
 .email {
   margin: 0 40px 14px 40px;
+  color: #979493;
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px/2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
 }
 
 .info {
   display: flexbox;
   margin: 24px 38px 24px 38px;
-  padding: 0;
   width: auto;
   height: 114px;
+  border: none;
+  background-color:  #fbf8f7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12px;
+  line-height: 24px;
 }
 
 .button4 {
@@ -461,6 +490,7 @@ ul {
   width: 108px;
   height: 5px;
   margin: 23px 121px 8px 150px;
+  border-radius: 8px;
 }
 
 .s1 {
