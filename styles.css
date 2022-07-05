@@ -431,12 +431,11 @@ ul {
 }
 
 .info {
-  display: flexbox;
   margin: 24px 38px 24px 38px;
   width: auto;
   height: 114px;
   border: none;
-  background-color:  #fbf8f7;
+  background-color: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
