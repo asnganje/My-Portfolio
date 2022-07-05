@@ -420,20 +420,19 @@ ul {
   background: #ff6b00;
   color: #fff;
   width: 131px;
-  height: 48px;
+  height: 3rem;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   padding: 12px;
-  transition: all 1s linear;
   margin: auto;
   transition: all 1s linear;
 }
 
 .button4:hover {
-  background-color: #fed8b1;
+  background-color: #ff6b00;
 }
 .social-media2 {
   display: flex;
