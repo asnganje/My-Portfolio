@@ -576,6 +576,7 @@ ul {
   .main .social-media {
     display: none;
   }
+
   .main {
     display: flex;
     flex-direction: row;
@@ -586,24 +587,26 @@ ul {
     background-size: 400px;
     width: 100%;
     height: 100%;
- }
+  }
 
   .main .for-mediacss {
     display: flex;
     flex-direction: column;
     margin: 10px 0 0 13px;
   }
+
   .main .social-media1 {
     display: flex;
     flex-direction: column;
     margin: 192px 0 341px 15px;
   }
+
   .text-header {
     display: flex;
     flex-direction: column;
     padding-right: 500px;
   }
-  
+
   .text-paragraph {
     display: flex;
     flex-direction: column;
@@ -727,7 +730,7 @@ ul {
     margin: 20px 115px 0 75px;
   }
 
-.gitem1 {
+  .gitem1 {
     background-color: #dfe1e6;
     width: auto;
     height: auto;
@@ -781,7 +784,7 @@ ul {
     background-repeat: no-repeat;
   }
 
-  .mediacss-grid >div{
+  .mediacss-grid > div{
     height: 250px;
   }
 
@@ -809,17 +812,17 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 100px 12px 0 12px;
   }
 
   .gitem2-p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 10px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 0 12px 0 12px;
   }
 
@@ -842,17 +845,17 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 130px 12px 0 12px;
   }
 
   .gitem3-p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 10px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 0 12px 0 12px;
   }
 
@@ -875,12 +878,12 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 100px 12px 0 12px;
   }
 
   .gitem4-p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -908,17 +911,17 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 100px 12px 0 12px;
   }
 
   .gitem5-p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 10px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 0 12px 0 12px;
   }
 
@@ -941,12 +944,12 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #fff;
     margin: 130px 12px 0 12px;
   }
 
   .gitem6-p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -1015,7 +1018,7 @@ ul {
     height: auto;
   }
 
-  .about-i-mediacss {
+  .about-i-mediacss{
     height: 15px;
     width: 15px;  
     margin-top: 10px;
@@ -1028,10 +1031,10 @@ ul {
   }
 
   .ul-karabati ul {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 100px;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1136,5 +1139,4 @@ ul {
     display: none;
     height: 50px;
   }
-
 }
