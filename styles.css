@@ -731,55 +731,49 @@ ul {
   }
 
   .gitem1 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background-image: url("./images/yenyewe.png");
+    background: #dfe1e6 url("./images/yenyewe.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .gitem2 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background: url("./images/avail-item.png");
+    background: #dfe1e6 url("./images/avail-item.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .gitem3 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background: url("./images/web-portfolio1.png");
+    background: #dfe1e6 url("./images/web-portfolio1.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .gitem4 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background: url("./images/imgPgrid.png");
+    background: #dfe1e6 url("./images/imgPgrid.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .gitem5 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background: url("./images/avail-item.png");
+    background: #dfe1e6 url("./images/avail-item.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .gitem6 {
-    background-color: #dfe1e6;
     width: auto;
     height: auto;
-    background: url("./images/web-portfolio1.png");
+    background: #dfe1e6 url("./images/web-portfolio1.png");
     background-size: contain;
     background-repeat: no-repeat;
   }
