@@ -784,7 +784,7 @@ ul {
     background-repeat: no-repeat;
   }
 
-  .mediacss-grid > div{
+  .mediacss-grid > div {
     height: 250px;
   }
 
@@ -808,7 +808,7 @@ ul {
   }
 
   .gitem2-h {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -841,7 +841,7 @@ ul {
   }
 
   .gitem3-h {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -861,7 +861,7 @@ ul {
 
   .gitem3-s {
     margin-left: 10px;
-}
+  }
 
   .gitem3-s li {
     border: 1px solid #8993a4;
@@ -874,7 +874,7 @@ ul {
   }
 
   .gitem4-h {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -888,7 +888,7 @@ ul {
     font-weight: 400;
     font-size: 10px;
     line-height: 10px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 0 12px 0 12px;
   }
 
@@ -907,7 +907,7 @@ ul {
   }
 
   .gitem5-h {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -940,7 +940,7 @@ ul {
   }
 
   .gitem6-h {
-    font-family: 'Crete Round',sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1018,9 +1018,9 @@ ul {
     height: auto;
   }
 
-  .about-i-mediacss{
+  .about-i-mediacss {
     height: 15px;
-    width: 15px;  
+    width: 15px;
     margin-top: 10px;
   }
 
@@ -1042,8 +1042,8 @@ ul {
     font-size: 22px;
   }
 
-.content {
-  display: none;
+  .content {
+    display: none;
   }
 
   .form1 {
