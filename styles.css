@@ -502,7 +502,6 @@ ul {
   color: #505f79;
 }
 
-
 .desktop-nav {
   display: none;
 }
@@ -566,18 +565,18 @@ ul {
     line-height: 20px;
 }
 
-  .hamburger-menu {
+.hamburger-menu {
     display: none;
 }
-
-  .myLogo {
+  
+.myLogo {
     margin-left: 65px;
 }
-
-  .main .social-media{
+  
+  .main .social-media {
     display: none;
 }
-
+  
   .main {
     display: flex;
     flex-direction: row;
@@ -589,24 +588,25 @@ ul {
     width: 100%;
     height: 100%;
 }
-
+  
   .main .for-mediacss {
     display: flex;
     flex-direction: column;
     margin: 10px 0 0 13px;
 }
-
-  .main .social-media1{
+  
+  .main .social-media1 {
     display: flex;
     flex-direction: column;
     margin: 192px 0 341px 15px;
 }
+  
   .text-header {
     display: flex;
     flex-direction: column;
-    padding-right: 500px
+    padding-right: 500px;
 }
-
+  
   .text-paragraph {
     display: flex;
     flex-direction: column;
