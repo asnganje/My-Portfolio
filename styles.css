@@ -996,7 +996,8 @@ ul {
   .lang-f-skills {
     display: grid;
     grid-template-columns: 27% 27% 27%;
-    gap: 130px;
+    gap: 41px;
+    margin-left: 38px;
   }
 
   .lang-f-skills h4 {
