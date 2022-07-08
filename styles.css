@@ -1109,7 +1109,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 60%;
-    
+
     /* animation */
     animation-name: movement;
     animation-duration: 5s;
