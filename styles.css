@@ -91,7 +91,6 @@ main {
   line-height: 24px;
   padding: 12px 24px;
   margin-left: 12px;
-  margin: 0;
 }
 
 .main .social-media {
@@ -160,7 +159,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  width: 91%
+  width: 91%;
 }
 
 .csbox {
@@ -600,7 +599,7 @@ ul {
   .main .for-mediacss {
     display: flex;
     flex-direction: column;
-    margin: 10px 0 0 0px;
+    margin: 10px 0 0 0;
   }
 
   .main .social-media1 {
@@ -1081,7 +1080,7 @@ ul {
     width: 100%;
     align-content: center;
     height: 1px;
-    margin: 100px 0px 8px 0px;
+    margin: 100px 0 8px 0;
   }
 
   .social-media2 {
@@ -1159,7 +1158,8 @@ ul {
     font-size: 15px;
     width: 82%;
   }
-  .list-items li{
+
+  .list-items li {
     border: 1px solid #8993a4;
     padding: 10px;
     text-align: center;
@@ -1176,7 +1176,7 @@ ul {
     font-size: 14px;
     padding: 7px;
     margin-top: 6px;
-    border: 0px;
+    border: 0;
     transition: all 1s linear;
   }
 
