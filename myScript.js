@@ -1,4 +1,4 @@
-/* exported myFunction */
+/* eslint-disable no-unused-vars */
 function myFunction() {
   const x = document.querySelector('.topbar');
   const btn = document.getElementById('hamburger-menu');
@@ -7,3 +7,4 @@ function myFunction() {
     x.classList.remove('visible'); btn.innerHTML = '&#9776';
   }
 }
+/* eslint-disable no-unused-vars */
