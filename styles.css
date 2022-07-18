@@ -387,7 +387,6 @@ ul {
 }
 
 .div-intermediate1 {
-  border-radius: 10px solid black;
   width: auto;
   height: 1px;
   background-color: #dfe1e6;
@@ -395,7 +394,6 @@ ul {
 }
 
 .div-intermediate2 {
-  border-radius: 10px solid black;
   width: auto;
   height: 1px;
   background-color: #dfe1e6;
@@ -470,7 +468,6 @@ ul {
 }
 
 .div-mid {
-  border-radius: 10px solid black;
   height: 2px;
   width: 100%;
   margin: 136px 0 25px 0;
@@ -1021,7 +1018,6 @@ ul {
   .ul-karabati ul {
     display: flex;
     flex-direction: column;
-    align-items: left;
     margin-bottom: 100px;
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -1094,7 +1090,7 @@ ul {
   }
 
   .div-mid-formedia {
-    border-radius: 10px solid black;
+    border: 10px solid black;
     height: 2px;
     width: 100%;
     margin: 136px 0 25px 0;
@@ -1175,7 +1171,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 24px;
-    align-items: top;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
