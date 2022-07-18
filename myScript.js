@@ -10,4 +10,5 @@ function myFunction() {
     x.classList.remove('visible');
     btn.innerHTML = "&#9776;";
   }
+
 }
