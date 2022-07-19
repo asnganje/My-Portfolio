@@ -489,23 +489,23 @@ ul {
 }
 
 @media screen and (max-width: 1069px) {
-.topbar.visible {
+  .topbar.visible {
     position: absolute;
     background-color: #2b2928;
     height: 100%;
   }
 
-.topbar.visible .hamburger-menu {
+  .topbar.visible .hamburger-menu {
     position: absolute;
     right: 0;
     top: 0;
   }
 
-.topbar.visible .myLogo {
+  .topbar.visible .myLogo {
     display: none;
   }
 
-.topbar.visible .desktop-nav {
+  .topbar.visible .desktop-nav {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -517,19 +517,19 @@ ul {
     margin-left: 3%;
   }
 
-.deco-hr {
+  .deco-hr {
     width: 100%;
     height: 1px;
     background-color: #3e3c3c;
   }
 
-.topbar.visible .desktop-nav a {
+  .topbar.visible .desktop-nav a {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-.topbar.visible .low-part-mobile{
+  .topbar.visible .low-part-mobile {
     display: flex;
     position: absolute;
     bottom: 0;
@@ -538,16 +538,15 @@ ul {
     height: 11%;
   }
 
-.line-low-part-mobile{
+  .line-low-part-mobile {
     width: 35%;
     display: flex;
     flex-direction: row;
     height: 4px;
     background-color: #050505;
-    margin: 56px 0px 0px 132px;
+    margin: 56px 0 0 132px;
     border-radius: 18%;
   }
-
 }
 
 .for-mediacss2 {
