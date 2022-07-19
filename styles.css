@@ -176,6 +176,7 @@ ul {
 .div-informatn {
   padding-left: 38px;
 }
+
 .grid-container2 {
   display: grid;
   background: #fff;
@@ -488,66 +489,64 @@ ul {
 }
 
 @media screen and (max-width: 1069px) {
-  
 .topbar.visible {
-  position: absolute;
-  background-color: #2b2928;;
-  background: #2b2928;
-  height: 100%;
-}
+    position: absolute;
+    background-color: #2b2928;
+    height: 100%;
+  }
 
 .topbar.visible .hamburger-menu {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
 .topbar.visible .myLogo {
-  display: none;
-}
+    display: none;
+  }
 
 .topbar.visible .desktop-nav {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 72px;
-  left: 0;
-  float: none;
-  height: auto;
-  width: 100%;
-  margin-left: 3%;
-}
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    float: none;
+    height: auto;
+    width: 100%;
+    margin-left: 3%;
+  }
 
 .deco-hr {
-  width: 100%;
-  height: 1px;
-  background-color: #3e3c3c;
-}
+    width: 100%;
+    height: 1px;
+    background-color: #3e3c3c;
+  }
 
 .topbar.visible .desktop-nav a {
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
 .topbar.visible .low-part-mobile{
-  display: flex;
-  position: absolute;
-  bottom: 0;
-  background-color: #E5E5E5;
-  width: 100%;
-  height: 11%;
-}
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 11%;
+  }
 
 .line-low-part-mobile{
-  width: 35%;
-  display: flex;
-  flex-direction: row;
-  height: 4px;
-  background-color: #050505;
-  margin: 56px 0px 0px 132px;
-  border-radius: 18%;
-}
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    height: 4px;
+    background-color: #050505;
+    margin: 56px 0px 0px 132px;
+    border-radius: 18%;
+  }
 
 }
 
@@ -593,7 +592,7 @@ ul {
   width: 99%;
   height: 1px;
   background-color: rgb(151, 148, 147);
-  margin: 35px 0px 0px 0px;
+  margin: 35px 0 0 0;
 }
 
 .multi-p-image {
@@ -608,7 +607,7 @@ ul {
   height: 1px;
   padding-left: 0%;
   background-color: #fff;
-  margin: 30px 0 30px 0px;
+  margin: 30px 0 30px 0;
 }
 
 .about-me-skills {
@@ -1057,7 +1056,6 @@ ul {
     line-height: 24px;
   }
 
-
   .div-low {
     display: none;
   }
@@ -1191,7 +1189,7 @@ ul {
     height: 1px;
     padding-left: 0%;
     background-color: #fff;
-    margin: 30px 0 30px 0px;
+    margin: 30px 0 30px 0;
   }
 
   .skills-data {
