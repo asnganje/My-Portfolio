@@ -490,7 +490,7 @@ ul {
 
 @media screen and (max-width: 1069px) {
   .topbar.visible {
-    position: absolute;
+    position: fixed;
     background-color: #2b2928;
     height: 100%;
   }
