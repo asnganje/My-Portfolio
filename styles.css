@@ -49,7 +49,8 @@ main {
   padding: 0;
   text-decoration: none;
   color: white;
-  font-size: 24px;;
+  font-size: 24px;
+  position: relative;
 }
 
 .bar {
@@ -482,9 +483,27 @@ ul {
   text-decoration: none;
 }
 
+.low-part-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1069px) {
+  
 .topbar.visible {
-  position: relative;
+  position: absolute;
+  background-color: #2b2928;;
   background: #2b2928;
+  height: 100%;
+}
+
+.topbar.visible .hamburger-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topbar.visible .myLogo {
+  display: none;
 }
 
 .topbar.visible .desktop-nav {
@@ -496,13 +515,40 @@ ul {
   float: none;
   height: auto;
   width: 100%;
-  align-items: center;
+  margin-left: 3%;
+}
+
+.deco-hr {
+  width: 100%;
+  height: 1px;
+  background-color: #3e3c3c;
 }
 
 .topbar.visible .desktop-nav a {
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.topbar.visible .low-part-mobile{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 11%;
+}
+
+.line-low-part-mobile{
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  height: 4px;
+  background-color: #050505;
+  margin: 56px 0px 0px 132px;
+  border-radius: 18%;
+}
+
 }
 
 .for-mediacss2 {

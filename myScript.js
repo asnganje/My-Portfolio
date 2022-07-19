@@ -1,36 +1,22 @@
-/* eslint-disable no-unused-vars */
+const topbar = document.querySelector('.topbar');
+const hamburger = document.getElementById('hamburger-menu');
+const topnav = document.querySelectorAll('.desktop-nav');
 function myFunction() {
-  const x = document.querySelector('.topbar');
-  const btn = document.getElementById('hamburger-menu');
 
-  if (x.className === 'topbar') { x.classList.add('visible'); btn.innerHTML = '&#10006'; } else {
-    x.classList.remove('visible'); btn.innerHTML = '&#9776';
-    x.classList.toggle('visible');
+  if (topbar.className === 'topbar') { 
+    topbar.classList.add('visible'); 
+    hamburger.innerHTML = '&#10006'; } 
+  else {
+    topbar.classList.remove('visible'); 
+    hamburger.innerHTML = '&#9776';
+
   }
 }
-/* eslint-disable no-unused-vars */ 
 
-/**const dispMenu = document.querySelector('.desktop-nav');
-dispMenu.addEventListener('click', show)
-function show() {
-  dispMenu.style.display = 'flex';
-  dispMenu.style.dispMenu.display = 'column';
-}
-/**function myFunction(){
-  const hamburg = document.querySelector('.hamburger-menu');
-  const top = document.querySelector('.topbar');
-if (hamburg.className === 'hamburger-menu') 
-{hamburg.classList.add('visible'); hamburg.innerHTML = '&#10006'; } 
+  hamburger.addEventListener('click', myFunction);
+  topnav.forEach((n) => n.addEventListener('click', myFunction));
 
-if (top.className === 'topbar') 
-{ top.classList.add('visible');} 
 
-else {
-  hamburg.classList.remove('visible'); hamburg.innerHTML = '&#9776';
-  hamburg.classList.toggle('visible');
-}
-
-}**/
 
 
 
