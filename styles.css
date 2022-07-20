@@ -47,6 +47,10 @@ main {
   cursor: pointer;
   margin: 0 25px 0 0;
   padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  position: relative;
 }
 
 .bar {
@@ -105,19 +109,12 @@ li {
   padding: 0;
 }
 
-.grid-container {
+.recent-works {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: #fff;
   width: 100%;
-}
-
-.card-1 {
-  display: flex;
-  flex-direction: column;
-  width: 86%;
-  padding: 10px;
 }
 
 ul {
@@ -127,22 +124,12 @@ ul {
   margin: 0;
 }
 
-.title {
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  width: 83%;
-  line-height: 52px;
-  margin-bottom: 24px;
-}
-
 .image-line1 {
   margin-bottom: 80px;
   width: 88%;
 }
 
-.multipost-h {
+.multipost-h1 {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -152,7 +139,7 @@ ul {
   margin: 24px 0 0;
 }
 
-.para1 {
+.para-info {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -162,37 +149,19 @@ ul {
   width: 91%;
 }
 
-.csbox {
+.list-items li {
   border: 1px solid #8993a4;
   padding: 10px;
   text-align: center;
 }
 
-.htmlbx {
-  border: 1px solid #8993a4;
-  padding: 10px;
-  text-align: center;
-}
-
-.bootbox {
-  border: 1px solid #8993a4;
-  padding: 10px;
-  text-align: center;
-}
-
-.rubox {
-  border: 1px solid #8993a4;
-  padding: 10px;
-  text-align: center;
-}
-
-.button1 {
+.button-see-somethn {
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  width: fit-content;
+  width: 30%;
   line-height: 24px;
   margin-top: 10px;
   padding: 5px;
@@ -200,8 +169,12 @@ ul {
   transition: all 1s linear;
 }
 
-.button1:hover {
+.button-see-somethn:hover {
   background-color: rgb(112, 168, 112);
+}
+
+.div-informatn {
+  padding-left: 38px;
 }
 
 .grid-container2 {
@@ -273,7 +246,7 @@ ul {
   background-color: rgb(112, 168, 112);
 }
 
-.about-container3 {
+.about-me-data {
   display: flex;
   flex-direction: column;
   background: #1c1a19;
@@ -341,7 +314,7 @@ ul {
 
 .icon-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   align-self: center;
   margin: 20px;
@@ -357,16 +330,22 @@ ul {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-left: 20px;
+  padding-bottom: 10%;
+}
+
+.icon-container .adjust {
+  padding-bottom: 35%;
 }
 
 .about-icon {
   height: 18px;
   width: 18px;
+  padding-top: 6%;
 }
 
-.content {
+.contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -384,7 +363,6 @@ ul {
 }
 
 .div-intermediate1 {
-  border-radius: 10px solid black;
   width: auto;
   height: 1px;
   background-color: #dfe1e6;
@@ -392,7 +370,6 @@ ul {
 }
 
 .div-intermediate2 {
-  border-radius: 10px solid black;
   width: auto;
   height: 1px;
   background-color: #dfe1e6;
@@ -460,20 +437,6 @@ ul {
   background-color: rgb(112, 168, 112);
 }
 
-.social-media2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.div-mid {
-  border-radius: 10px solid black;
-  height: 2px;
-  width: 100%;
-  margin: 136px 0 25px 0;
-  background-color: #dfe1e6;
-}
-
 .div-low {
   display: flex;
   flex-direction: row;
@@ -509,8 +472,81 @@ ul {
   display: none;
 }
 
-.social-media1 {
+.desktop-nav a {
+  height: 20px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 40px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.low-part-mobile {
   display: none;
+}
+
+@media screen and (max-width: 1069px) {
+  .topbar.visible {
+    position: fixed;
+    background-color: #2b2928;
+    height: 100%;
+  }
+
+  .topbar.visible .hamburger-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topbar.visible .myLogo {
+    display: none;
+  }
+
+  .topbar.visible .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    float: none;
+    height: auto;
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .deco-hr {
+    width: 100%;
+    height: 1px;
+    background-color: #3e3c3c;
+  }
+
+  .topbar.visible .desktop-nav a {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .topbar.visible .low-part-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 11%;
+  }
+
+  .line-low-part-mobile {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    height: 4px;
+    background-color: #050505;
+    margin: 56px 0 0 132px;
+    border-radius: 18%;
+  }
 }
 
 .for-mediacss2 {
@@ -525,36 +561,81 @@ ul {
   display: none;
 }
 
-.mediass-contact {
-  display: none;
+.social-media-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
 
-.div-mid-formedia {
-  display: none;
-}
-
-.social-for-med {
-  display: none;
-}
-
-.div-low-for-med {
-  display: none;
+.footer-line {
+  display: flex;
+  background-color: #dfe1e6;
+  width: 100%;
+  align-content: center;
+  height: 1px;
+  margin: 100px 0 8px 0;
 }
 
 .title1 {
-  display: none;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  width: 100%;
+  line-height: 52px;
+  margin-bottom: 24px;
+}
+
+.line-recent-works {
+  width: 99%;
+  height: 1px;
+  background-color: rgb(151, 148, 147);
+  margin: 35px 0 0 0;
+}
+
+.multi-p-image {
+  width: 83%;
+  margin: 50px 30px 30px 35px;
 }
 
 .image-line2 {
-  display: none;
+  display: flex;
+  width: 87%;
+  align-self: center;
+  height: 1px;
+  padding-left: 0%;
+  background-color: #fff;
+  margin: 30px 0 30px 0;
 }
 
-.for-med-only {
-  display: none;
+.about-me-skills {
+  display: flex;
+  flex-direction: column;
 }
 
-.img-h-p-btns-seemore {
-  display: none;
+.skills-data {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-media {
+  background: #ff6b00;
+  color: #fff;
+  width: auto;
+  height: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 5px 0 0 38px;
+  transition: all 2s linear;
+  border: 0;
+}
+
+.button-media:hover {
+  background-color: rgb(112, 168, 112);
 }
 
 /* MEDIA QUERIES */
@@ -562,14 +643,6 @@ ul {
   .desktop-nav {
     display: flex;
     flex-direction: row;
-    height: 20px;
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    margin-right: 40px;
-    line-height: 20px;
   }
 
   .hamburger-menu {
@@ -581,12 +654,15 @@ ul {
   }
 
   .main .social-media {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 192px 0 341px 15px;
   }
 
   .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: black;
     background-image: url("./images/bgmediacss.png");
     background-repeat: no-repeat;
@@ -594,18 +670,6 @@ ul {
     background-size: 400px;
     width: 100%;
     height: 100%;
-  }
-
-  .main .for-mediacss {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0 0 0;
-  }
-
-  .main .social-media1 {
-    display: flex;
-    flex-direction: column;
-    margin: 192px 0 341px 15px;
   }
 
   .text-header {
@@ -620,15 +684,11 @@ ul {
     padding-right: 450px;
   }
 
-  .title {
-    display: none;
-  }
-
   .image-line1 {
     display: none;
   }
 
-  .for-mediacss2 {
+  .recent-works-data {
     display: flex;
     width: 95%;
     margin: 75px 0 0 75px;
@@ -637,61 +697,14 @@ ul {
   .title1 {
     display: block;
     color: #091e42;
+    width: 39%;
   }
 
-  .for-mediacss3 {
+  .line-recent-works {
     width: 70%;
     height: 1px;
     background-color: #979493;
-    margin: 35px 0 0 12px;
-  }
-
-  .card-1 {
-    display: none;
-  }
-
-  li.csbox {
-    padding: 5px;
-    width: auto;
-    height: 25px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  li.htmlbx {
-    padding: 5px;
-    width: auto;
-    height: 25px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  li.bootbox {
-    padding: 5px;
-    width: auto;
-    height: 25px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  li.rubox {
-    padding: 5px;
-    width: auto;
-    height: 25px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    margin: 66px 0 0 12px;
   }
 
   .grid-container2 {
@@ -931,11 +944,7 @@ ul {
     padding: 5px;
   }
 
-  .about-container3 {
-    display: none;
-  }
-
-  .mediacss-about-me {
+  .about-me-data {
     display: flex;
     flex-direction: column;
     background: #1c1a19;
@@ -953,6 +962,13 @@ ul {
     height: 1px;
     background-color: #dfe1e6;
     margin-left: 74px;
+  }
+
+  .about-me-skills {
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    gap: 41px;
+    margin-left: 75px;
   }
 
   .lang-f-skills {
@@ -990,7 +1006,6 @@ ul {
   .ul-karabati ul {
     display: flex;
     flex-direction: column;
-    align-items: left;
     margin-bottom: 100px;
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -999,26 +1014,8 @@ ul {
     font-size: 22px;
   }
 
-  .content {
-    display: none;
-  }
-
   .form1 {
     display: none;
-  }
-
-  .mediass-contact {
-    display: grid;
-    grid-template-columns: 40% 60%;
-  }
-
-  .mediass-contact h3 {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29px;
-    line-height: 42px;
-    margin: 0 0 40px 72px;
   }
 
   .form1-mediacss {
@@ -1058,23 +1055,11 @@ ul {
     line-height: 24px;
   }
 
-  .div-mid {
-    display: none;
-  }
-
-  .div-mid-formedia {
-    border-radius: 10px solid black;
-    height: 2px;
-    width: 100%;
-    margin: 136px 0 25px 0;
-    background-color: #dfe1e6;
-  }
-
   .div-low {
     display: none;
   }
 
-  .div-low-for-med {
+  .footer-line {
     display: flex;
     background-color: #dfe1e6;
     width: 100%;
@@ -1083,11 +1068,7 @@ ul {
     margin: 100px 0 8px 0;
   }
 
-  .social-media2 {
-    display: none;
-  }
-
-  .social-for-med {
+  .social-media-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1099,7 +1080,7 @@ ul {
     height: 50px;
   }
 
-  .img-h-p-btns-seemore {
+  .img-data-and-btn-seemore {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -1144,7 +1125,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 24px;
-    align-items: top;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1201,7 +1181,40 @@ ul {
     background-color: rgb(112, 168, 112);
   }
 
-  .para1 {
-    display: none;
+  .image-line2 {
+    display: flex;
+    width: 87%;
+    align-self: center;
+    height: 1px;
+    padding-left: 0%;
+    background-color: #fff;
+    margin: 30px 0 30px 0;
+  }
+
+  .skills-data {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    margin: 120px 24px 73px 24px;
+  }
+
+  .contact h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 42px;
+    margin: 0 0 40px 72px;
   }
 }
