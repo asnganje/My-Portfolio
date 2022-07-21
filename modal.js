@@ -10,7 +10,7 @@ const myRecentWorks = [
 ];
 const loadRecentWorks = () => {
   let cardRecentworks = '';
-  for (let i = 0; i < myRecentWorks.length; i++ ) {
+  for (let i = 0; i < myRecentWorks.length; i+=1) {
     const card = `
     <div class="img-data-and-btn-seemore">
             <div class="img-gymfit">
@@ -86,7 +86,7 @@ const myRecentProjects = [
 
 const loadRecentProjects = () => {
   let cardRecentProjects = '';
-  for (let i = 0; i < myRecentProjects.length; i++) {
+  for (let i = 0; i < myRecentProjects.length; i+=1) {
     const card1 = `
         <div class="project-bg">
         <h3 class="professional-heading">${myRecentProjects[i].projectTitle}</h3>
