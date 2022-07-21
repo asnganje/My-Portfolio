@@ -7,6 +7,10 @@ main {
   overflow: hidden;
 }
 
+button {
+  cursor: pointer;
+}
+
 .topbar {
   display: flex;
   background: #3c3a39;
@@ -597,21 +601,20 @@ ul {
 .modal-popup {
   display: block;
   position: fixed;
-  height: 90%;
+  height: 100%;
   width: 90%;
+  top: 50px;
 }
 
 .p-modal-footer {
   display: flex;
-  gap: 12%;
-  margin-bottom: 5%;
-  padding-left: 4%;
+  gap: 5%;
+  padding-bottom: 30px;
 }
 
 .button-popup-1 {
   background: #ff6b00;
   color: #fff;
-  width: 39%;
   height: 27px;
   background-image: url(./images/Icon.svg);
   background-repeat: no-repeat;
@@ -624,13 +627,12 @@ ul {
   padding-left: 10px;
   text-align: left;
   text-decoration: none;
-  margin-top: 15%;
+  width: 110px;
 }
 
 .button-popup-2 {
   background: #ff6b00;
   color: #fff;
-  width: 39%;
   height: 27px;
   background-image: url(./images/gitv.svg);
   background-repeat: no-repeat;
@@ -643,7 +645,7 @@ ul {
   padding-left: 10px;
   text-align: left;
   text-decoration: none;
-  margin-top: 15%;
+  width: 130px;
 }
 
 .modal-title1 {
@@ -656,7 +658,6 @@ ul {
 
 .portfolio-modal {
   background-color: #fff;
-  height: 100%;
 }
 
 .modal-para2 {
@@ -696,9 +697,10 @@ ul {
 
 .p-modal-para {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: auto;
   width: 93%;
-  height: 200px;
 }
 
 .p-modal-header .modal-close-btn {
@@ -707,14 +709,13 @@ ul {
   border: none;
   cursor: pointer;
   font-size: 200%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .p-modal-body {
   padding: 10px 13px;
-}
-
-#mobile {
-  margin-top: -27%;
 }
 
 .modal-title {
@@ -741,80 +742,55 @@ ul {
   }
 
   .p-modal-footer {
-    grid-area: 2/2/span1/span1;
-    justify-content: end;
-    gap: 2%;
-  }
-
-  #mobile {
-    margin-top: 0;
+    justify-content: start;
+    padding-left: 0;
+    padding-bottom: 50px;
   }
 
   .p-modal-para {
-    grid-area: 2/2/span1/span1;
-    align-items: baseline;
+    grid-area: 2 / 2 / span 1 / span 1;
     margin-top: 11%;
     width: 85%;
     line-height: 30px;
-    margin-left: -5%;
+    margin: 0;
+    padding-top: 50px;
   }
 
   .button-popup-1 {
     background: #ff6b00;
     color: #fff;
-    width: 24%;
     height: 38px;
     background-image: url(./images/Icon.svg);
     background-repeat: no-repeat;
     background-position: 94% 50%;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    margin-top: -17%;
-    margin-left: 55%;
-    text-align: left;
-    text-decoration: none;
   }
 
   .button-popup-2 {
     background: #ff6b00;
     color: #fff;
-    width: 24%;
     height: 38px;
     background-image: url(./images/gitv.svg);
     background-repeat: no-repeat;
     background-position: 94% 50%;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    margin-top: -17%;
-    margin-right: 6%;
-    padding-bottom: -10%;
-    text-align: left;
-    text-decoration: none;
   }
 
   .p-modal-body {
-    grid-area: 2/1/span1/span1;
+    grid-area: 2 / 1 / span 1 / span 1;
+    padding-right: 0;
   }
 
   .p-modal-header {
-    grid-area: 1/1/span 1/span3;
-    justify-content: space-between;
-    align-items: center;
-    width: 170%;
+    grid-area: 1 / 1 / span 1 / span 2;
     padding-right: 0;
   }
 
   .portfolio-modal {
     display: grid;
+    grid-template-columns: 65% 35%;
   }
 
   .modal-title1 {
     display: block;
-    padding-left: 1%;
   }
 
   .modal-title {
@@ -917,10 +893,20 @@ ul {
     grid-auto-rows: 1fr;
   }
 
-  .gitem1 {
+  .mediacss-grid div {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+  .mediacss-grid .gitem1 {
     background: #dfe1e6 url("./images/imgproblm.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .gitem2 {
@@ -953,15 +939,10 @@ ul {
     background-repeat: no-repeat;
   }
 
-  .mediacss-grid > div {
-    height: 55vh;
-    width: 100%;
-  }
-
   .buttongrid1 {
     color: #fff;
     background: #ff6b00;
-    height: 2rem;
+    height: 3rem;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -969,7 +950,6 @@ ul {
     border: 0;
     padding: 6px;
     width: 100%;
-    margin-top: 330px;
     transition: all 2s linear;
   }
 
