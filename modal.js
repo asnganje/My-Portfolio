@@ -154,7 +154,7 @@ const loadPopUp = (id) => {
   projectPopUp.innerHTML = myPop;
 };
 loadPopUp();
-const popUpPage = document.querySelector('.modal-popup');
+const popUpPage = document.querySelector('.parent-pop');
 
 const closePopup = document.querySelector('.modal-close-btn');
 
