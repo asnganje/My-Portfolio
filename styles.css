@@ -578,7 +578,7 @@ ul {
   background-color: rgb(112, 168, 112);
 }
 
-.parent-pop{
+.parent-pop {
   background-color: rgba(0, 0, 0, 0.692);
   display: none;
   justify-content: center;
@@ -590,7 +590,7 @@ ul {
   height: 100%;
 }
 
-.parent-pop.show-modal{
+.parent-pop.show-modal {
   display: flex;
 }
 
