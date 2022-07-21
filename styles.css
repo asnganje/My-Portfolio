@@ -775,22 +775,25 @@ ul {
   .portfolio-modal {
     display: grid;
   }
+
   .p-modal-para {
     grid-area: 2/2/span1/span1;
     align-items: baseline;
     margin-top: 11%;
   }
 
-  .modal-para1{
+  .modal-para1 {
     position: 100% 50%;
   }
 
   .modal-title1 {
     display: block;
   }
+
   .modal-title {
     display: none;
   }
+
   .imgsoln {
     margin-bottom: 7%;
     width: 95%;
@@ -799,6 +802,7 @@ ul {
   .p-modal-img1 {
     display: block;
   }
+
   .project-bg {
     display: none;
   }
@@ -1322,7 +1326,6 @@ ul {
     text-align: center;
   }
 
-  /**changed this button to button2**/
   .button-see-somethn {
     background: #ff6b00;
     color: #fff;
