@@ -709,7 +709,7 @@ ul {
 .modal-listed {
   width: 100%;
   margin-top: -5%;
-  margin-bottom: 4%
+  margin-bottom: 4%;
 }
 
 .mobl-img {
@@ -795,12 +795,6 @@ ul {
 
   .portfolio-modal {
     display: grid;
-  }
-
-  .p-modal-para {
-    grid-area: 2/2/span1/span1;
-    align-items: baseline;
-    margin-top: 11%;
   }
 
   .modal-title1 {
