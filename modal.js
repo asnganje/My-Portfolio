@@ -1,16 +1,16 @@
 const myMultipost = document.getElementById('portfolioModal');
 
 const myRecentWorks = [
-{
+  {
     img: '',
     projectTitle: 'Multipost Stories',
     description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     skills: ['css', 'html', 'bootstrap', 'ruby'],
-},
+  },
 ];
 const loadRecentWorks = () => {
-    let cardRecentworks = '';
-    for (let i = 0; i < myRecentWorks.length; i++ ) {
+  let cardRecentworks = '';
+  for (let i = 0; i < myRecentWorks.length; i++ ) {
     const card = `
     <div class="img-data-and-btn-seemore">
             <div class="img-gymfit">
@@ -39,8 +39,8 @@ const loadRecentWorks = () => {
             </div>
         </div>
         `;
-  cardRecentworks += card;
-    }
+    cardRecentworks += card;
+  }
   myMultipost.innerHTML = cardRecentworks;
 };
 loadRecentWorks();
@@ -51,24 +51,6 @@ const myRecentProjects = [
     projectTitle: 'Profesional Art Printing Data',
     description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
     skills: ['html', 'bootstrap', 'ruby'],
-    },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby']
-    },
-
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby'],
   },
 
   {
@@ -80,7 +62,25 @@ const myRecentProjects = [
   {
     projectTitle: 'Profesional Art Printing Data',
     description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby']
+    skills: ['html', 'bootstrap', 'ruby'],
+  },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
+  },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
+  },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
   },
 ];
 
@@ -99,7 +99,7 @@ const loadRecentProjects = () => {
         <button class="button2" type="button">See Project</button>
     </div>
     `;
-        cardRecentProjects += card1;
+    cardRecentProjects += card1;
   }
   projectViewPost.innerHTML = cardRecentProjects;
 };
@@ -108,20 +108,20 @@ loadRecentProjects();
 const projectPopUp = document.getElementById('popupPage');
 const myPopUp = [
   {
-        projectTitle: 'Multi Post Stories',
-        projectTitleDesktop: 'Keeping track of hundreds  of components website',
-        skills: ['html', 'bootstrap', 'ruby'],
-        img: './images/modal-portfolio-mobile.svg',
-        image: './images/desktopverson.png',
-        pageDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-        pageDescriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. remaining essent',
-        links: ['https://github.com/asnganje', 'https://asnganje.github.io/My-Portfolio/'],
-    },
+    projectTitle: 'Multi Post Stories',
+    projectTitleDesktop: 'Keeping track of hundreds  of components website',
+    skills: ['html', 'bootstrap', 'ruby'],
+    img: './images/modal-portfolio-mobile.svg',
+    image: './images/desktopverson.png',
+    pageDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    pageDescriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. remaining essent',
+    links: ['https://github.com/asnganje', 'https://asnganje.github.io/My-Portfolio/'],
+  },
 
 ];
 const loadPopUp = (id) => {
-    id = 0;
-    const myPop = `
+  id = 0;
+  const myPop = `
     <div class="portfolio-modal">
                 <div class="p-modal-header">
                     <div class="modal-title"><h3>${myPopUp[id].projectTitle}</h3></div>
@@ -161,16 +161,16 @@ const closePopup = document.querySelector('.modal-close-btn');
 const trigger = document.querySelectorAll('.button2');
 
 function openPage() {
-popUpPage.classList.toggle('show-modal');
+  popUpPage.classList.toggle('show-modal');
 }
 
 function winOnClick(event) {
-if (event.target === popUpPage) {
+  if (event.target === popUpPage) {
     openPage();
-}
+  }
 }
 
-  trigger.forEach((element) => {
+trigger.forEach((element) => {
   element.addEventListener('click', openPage);
 });
 
