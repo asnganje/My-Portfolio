@@ -1,21 +1,21 @@
 const myMultipost = document.getElementById('portfolioModal');
 
 const myRecentWorks = [
-    {
-        img: '',
-        projectTitle: 'Multipost Stories',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['css', 'html', 'bootstrap', 'ruby']
-    }
+{
+    img: '',
+    projectTitle: 'Multipost Stories',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['css', 'html', 'bootstrap', 'ruby'],
+},
 ];
 const loadRecentWorks = () => {
     let cardRecentworks = '';
-    for(let i=0; i<myRecentWorks.length; i++){
-        const card = `
-        <div class="img-data-and-btn-seemore">
+    for (let i = 0; i < myRecentWorks.length; i++ ) {
+    const card = `
+    <div class="img-data-and-btn-seemore">
             <div class="img-gymfit">
-                <img src="images/multi-post.png" class="multi-p-image" alt="multi">
--            </div>
+            <img src="images/multi-post.png" class="multi-p-image" alt="multi">
+            </div>
             <div class="div-informatn">
                 <div class="for-med-multipost">
                 <h4 class="multipost-h1">${myRecentWorks[i].projectTitle}</h4>
@@ -39,55 +39,55 @@ const loadRecentWorks = () => {
             </div>
         </div>
         `;
-        cardRecentworks += card;
+  cardRecentworks += card;
     }
-    myMultipost.innerHTML = cardRecentworks;
+  myMultipost.innerHTML = cardRecentworks;
 };
 loadRecentWorks();
 
 const projectViewPost = document.getElementById('recentProjectWorks');
 const myRecentProjects = [
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
+    },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
+  },
+
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby']
     },
 
     {
         projectTitle: 'Profesional Art Printing Data',
         description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
-    },
+        skills: ['html', 'bootstrap', 'ruby'],
+  },
 
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
-    },
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby'],
+  },
 
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
-    },
-
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
-    },
-
-    {
-        projectTitle: 'Profesional Art Printing Data',
-        description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-        skills: ['html', 'bootstrap', 'ruby']
-    }
+  {
+    projectTitle: 'Profesional Art Printing Data',
+    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+    skills: ['html', 'bootstrap', 'ruby']
+  },
 ];
 
 const loadRecentProjects = () => {
-    let cardRecentProjects = '';
-    for(let i=0; i<myRecentProjects.length; i++){
-        const card1 = `
+  let cardRecentProjects = '';
+  for (let i = 0; i < myRecentProjects.length; i++) {
+    const card1 = `
         <div class="project-bg">
         <h3 class="professional-heading">${myRecentProjects[i].projectTitle}</h3>
         <p class="daily-section">${myRecentProjects[i].description}</p>
@@ -100,14 +100,14 @@ const loadRecentProjects = () => {
     </div>
     `;
         cardRecentProjects += card1;
-    }
-    projectViewPost.innerHTML = cardRecentProjects;
+  }
+  projectViewPost.innerHTML = cardRecentProjects;
 };
 loadRecentProjects();
 
 const projectPopUp = document.getElementById('popupPage');
 const myPopUp = [
-    {
+  {
         projectTitle: 'Multi Post Stories',
         projectTitleDesktop: 'Keeping track of hundreds  of components website',
         skills: ['html', 'bootstrap', 'ruby'],
@@ -151,7 +151,7 @@ const loadPopUp = (id) => {
                     <a href="${myPopUp[id].links[1]}" class="button-popup-2">See Source</a>
                 </div>
             </div>`;
-        projectPopUp.innerHTML = myPop;
+  projectPopUp.innerHTML = myPop;
 };
 loadPopUp();
 const popUpPage = document.querySelector('.modal-popup');
@@ -170,8 +170,8 @@ if (event.target === popUpPage) {
 }
 }
 
-trigger.forEach((element) => {
-element.addEventListener('click', openPage);
+  trigger.forEach((element) => {
+  element.addEventListener('click', openPage);
 });
 
 closePopup.addEventListener('click', openPage);
