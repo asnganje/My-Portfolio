@@ -754,7 +754,8 @@ ul {
     grid-area: 2/2/span1/span1;
     align-items: baseline;
     margin-top: 11%;
-    width: 95%;
+    width: 85%;
+    line-height: 30px;
     margin-left: -5%;
   }
 
