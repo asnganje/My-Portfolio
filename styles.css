@@ -739,7 +739,7 @@ ul {
     text-align: left;
     text-decoration: none;
   }
-  
+
   .button-popup-2 {
     background: #ff6b00;
     color: #fff;
@@ -758,7 +758,7 @@ ul {
     text-align: left;
     text-decoration: none;
   }
-  
+
   .p-modal-body {
     grid-area: 2/1/span1/span1;
   }
@@ -783,7 +783,7 @@ ul {
   }
 
   .modal-para1 {
-    position: 100% 50%;
+    position: 100vh 50vh;
   }
 
   .modal-title1 {
@@ -798,7 +798,7 @@ ul {
     margin-bottom: 7%;
     width: 95%;
   }
-  
+
   .p-modal-img1 {
     display: block;
   }
