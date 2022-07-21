@@ -175,7 +175,7 @@ ul {
 }
 
 .div-informatn {
-  padding-left: 38px;
+  padding-left: 12px;
 }
 
 .grid-container2 {
@@ -693,6 +693,7 @@ ul {
   outline: none;
   border: none;
   cursor: pointer;
+  font-size: 200%;
 }
 
 .p-modal-body {
@@ -720,6 +721,13 @@ ul {
 
   #mobile {
     margin-top: 0;
+  }
+
+  p.modal-para1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4% 0 3%;
   }
 
   .button-popup-1 {
