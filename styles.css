@@ -591,7 +591,7 @@ ul {
 
 .p-modal-footer {
   display: flex;
-  justify-content: space-between;
+  gap: 12%;
   margin-bottom: 5%;
   padding-left: 4%;
 }
@@ -610,7 +610,6 @@ ul {
   font-size: 17px;
   padding-top: 16px;
   padding-left: 10px;
-  margin-top: -23px;
   text-align: left;
   text-decoration: none;
 }
@@ -629,7 +628,6 @@ ul {
   font-size: 17px;
   padding-top: 16px;
   padding-left: 10px;
-  margin-top: -23px;
   text-align: left;
   text-decoration: none;
 }
@@ -684,8 +682,8 @@ ul {
 
 .p-modal-para {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  width: 93%;
 }
 
 .p-modal-header .modal-close-btn {
@@ -702,6 +700,20 @@ ul {
 
 #mobile {
   margin-top: -27%;
+}
+
+.modal-title {
+  padding-left: 3%;
+}
+
+.modal-listed {
+  width: 100%;
+  margin-top: -5%;
+  margin-bottom: 4%
+}
+
+.mobl-img {
+  width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -723,11 +735,12 @@ ul {
     margin-top: 0;
   }
 
-  p.modal-para1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 4% 0 3%;
+  .p-modal-para {
+    grid-area: 2/2/span1/span1;
+    align-items: baseline;
+    margin-top: 11%;
+    width: 95%;
+    margin-left: -5%;
   }
 
   .button-popup-1 {
@@ -742,8 +755,8 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    margin-top: -23%;
-    margin-left: 57%;
+    margin-top: -17%;
+    margin-left: 55%;
     text-align: left;
     text-decoration: none;
   }
@@ -760,7 +773,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    margin-top: -23%;
+    margin-top: -17%;
     margin-right: 6%;
     padding-bottom: -10%;
     text-align: left;
@@ -792,6 +805,7 @@ ul {
 
   .modal-title1 {
     display: block;
+    padding-left: 1%;
   }
 
   .modal-title {

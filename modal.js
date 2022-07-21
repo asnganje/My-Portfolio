@@ -131,13 +131,13 @@ const loadPopUp = (id) => {
                 
                 <div class="p-modal-body">
                     <div class="p-modal-icons">
-                            <ul>
+                            <ul class = "modal-listed">
                                 <li>html</li>
                                 <li>bootstrap</li>
                                 <li>Ruby on rails</li>
                             </ul>
                     </div>
-                    <div class="p-modal-img"><img src="${myPopUp[id].img}" alt="snapshot portfolio"></div>
+                    <div class="p-modal-img"><img src="${myPopUp[id].img}" class = "mobl-img" alt="snapshot portfolio"></div>
                     <div class="p-modal-img1"><img class="imgsoln" src="${myPopUp[id].image}" alt="snapshot portfolio"></div>
                     </div>
 
