@@ -612,7 +612,7 @@ ul {
   background: #ff6b00;
   color: #fff;
   width: 39%;
-  height: 38px;
+  height: 27px;
   background-image: url(./images/Icon.svg);
   background-repeat: no-repeat;
   background-position: 94% 50%;
@@ -620,17 +620,18 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  padding-top: 16px;
+  padding-top: 8px;
   padding-left: 10px;
   text-align: left;
   text-decoration: none;
+  margin-top: 15%;
 }
 
 .button-popup-2 {
   background: #ff6b00;
   color: #fff;
   width: 39%;
-  height: 38px;
+  height: 27px;
   background-image: url(./images/gitv.svg);
   background-repeat: no-repeat;
   background-position: 94% 50%;
@@ -638,10 +639,11 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  padding-top: 16px;
+  padding-top: 8px;
   padding-left: 10px;
   text-align: left;
   text-decoration: none;
+  margin-top: 15%;
 }
 
 .modal-title1 {
