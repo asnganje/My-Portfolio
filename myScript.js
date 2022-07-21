@@ -6,3 +6,4 @@ function myFunction() {
 }
 hamburger.addEventListener('click', myFunction);
 topnav.forEach((n) => n.addEventListener('click', myFunction));
+
