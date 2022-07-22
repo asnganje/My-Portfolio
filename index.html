@@ -13,8 +13,12 @@
 <link rel="stylesheet" href="styles.css">
 <title>My Portfolio</title>
 </head>
-
 <body>
+
+    <div class="parent-pop">
+        <div id="popupPage" class="modal-popup"></div>
+    </div>
+
 <header class="topbar">
     <div class="myLogo"><a href="#" class="a-link">Abdul Nganje</a></div>
     <a id="hamburger-menu" class="hamburger-menu" href="#">&#9776;</a>
@@ -27,10 +31,9 @@
     <div class="deco-hr"></div>
     </nav>
     <div class="low-part-mobile"><div class="line-low-part-mobile"></div></div>
-    
 </header>
 
-<main> 
+<main>
     <section class="main">
     <div>
         <h1 class="text-header">Hey There. I’m Nganje</h1>
@@ -54,158 +57,76 @@
             <h2 class="title1" >My Recent Works</h2>
             <div class="line-recent-works"></div>
         </div>
-        <div class="img-data-and-btn-seemore">
-            <div class="img-gymfit">
-                <img src="images/multi-post.png" class="multi-p-image" alt="multi">
-            </div>
-            <div class="div-informatn">
-                <div class="for-med-multipost">
-                <h4 class="multipost-h1">Multi-Post Stories</h4>
-                </div>
-                <div class="para-info">
-                <p>A daily selection of privately personalized reads;
-                    no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a standard dummy text.</p>
-                </div>
-                <div class="list-items">
-                <ul>
-                    <li>css</li>
-                    <li>html</li>
-                    <li>bootstrap</li>
-                    <li>Ruby</li>
-                </ul>
-                </div>
-                <div class="button-see">
-                <button class="button-see-somethn" type="button">
-                    See Project
-                </button>
-                </div>
-            </div>
-            </div>
-    </section>
 
+            <!-- Page dynamic Section-->
+        <div id="portfolioModal">
+        <span class="close">&times;</span>
+        <div class="portfolio-modal-content"></div>
+        </div>
+        <div id="recentProjectWorks"></div>
+    </section>
     <section class="project-portfolio">
         <div class="mediacss-grid">
             <div class="gitem1">
-                <button class="buttongrid1" type="button">See Project</button>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
             <div class="gitem2">
                 <h4 class="gitem2-h">Data Dashboard Healthcare</h4>
                 <p class="gitem2-p">A daily selection of privately personalized
                 reads; no accounts or sign-ups required. has been the industry's standard</p>
                 <ul class="gitem2-s">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>Ruby</li>
                 </ul>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
             <div class="gitem3">
                 <h4 class="gitem3-h">Website Protfolio</h4>
                 <p class="gitem3-p">A daily selection of privately personalized
                 reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="gitem3-s">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
+                  <ul class="gitem3-s">
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>Ruby</li>
                 </ul>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
             <div class="gitem4">
                 <h4 class="gitem4-h">Profesional Art Printing Data More</h4>
                 <p class="gitem4-p">A daily selection of privately personalized reads;
                 no accounts or sign-ups required. has been the industry's standard</p>
                 <ul class="gitem4-s">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>Ruby</li>
                 </ul>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
             <div class="gitem5">
                 <h4 class="gitem5-h">Data Dashboard Healthcare</h4>
                 <p class="gitem5-p">A daily selection of privately personalized
                 reads; no accounts or sign-ups required. has been the industry's standard</p>
                 <ul class="gitem5-s">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>Ruby</li>
                 </ul>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
             <div class="gitem6">
                 <h4 class="gitem6-h">Website Protfolio</h4>
                 <p class="gitem6-p">A daily selection of privately personalized
                 reads; no accounts or sign-ups required. has been the industry's standard</p>
                 <ul class="gitem6-s">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
+                  <li>html</li>
+                  <li>bootstrap</li>
+                  <li>Ruby</li>
                 </ul>
+                <button class="buttongrid1 button2" type="button">See Project</button>
             </div>
         </div>
         <div class="grid-container2">
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>
-        
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>
-        
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>
-        
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>
-        
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>
-        
-            <div class="project-bg">
-                <h3 class="professional-heading">Profesional Art Printing Data</h3>
-                <p class="daily-section">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                <ul class="socials">
-                <li>html</li>
-                <li>bootstrap</li>
-                <li>Ruby</li>
-                </ul>
-                <button class="button2" type="button">See Project</button>
-            </div>            
         </div>
     </section>
 
@@ -255,7 +176,7 @@
             <li>Terminal</li>
         </ul>
     </div>
-    </div>    
+    </div>
     </section>
 
     <section class="contact" id="contact">
@@ -264,7 +185,7 @@
                     I'm always interested in hearing about new projects, so if you'd
                     like to chat please get in touch.
                 </h3>
-            
+
                 <form action="https://formspree.io/f/xdobraqv" method="post" class="form1-mediacss">
                 <input name="input1" type="text" required class="name" placeholder=" Full name" maxlength="30">
                 <div class="div-intermediate1"></div>
@@ -285,6 +206,7 @@
         </ul>
 </footer>
 </main>
+<script src="modal.js"></script>
 <script src="myScript.js"></script>
 <script src="https://kit.fontawesome.com/4e5bc16f7d.js" crossorigin="anonymous"></script>
 </body>

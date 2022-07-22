@@ -7,6 +7,10 @@ main {
   overflow: hidden;
 }
 
+button {
+  cursor: pointer;
+}
+
 .topbar {
   display: flex;
   background: #3c3a39;
@@ -120,7 +124,8 @@ li {
 ul {
   display: flex;
   gap: 12px;
-  padding: 0;
+  padding-left: 0;
+  padding-bottom: 6px;
   margin: 0;
 }
 
@@ -174,7 +179,7 @@ ul {
 }
 
 .div-informatn {
-  padding-left: 38px;
+  padding-left: 12px;
 }
 
 .grid-container2 {
@@ -488,67 +493,6 @@ ul {
   display: none;
 }
 
-@media screen and (max-width: 1069px) {
-  .topbar.visible {
-    position: fixed;
-    background-color: #2b2928;
-    height: 100%;
-  }
-
-  .topbar.visible .hamburger-menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topbar.visible .myLogo {
-    display: none;
-  }
-
-  .topbar.visible .desktop-nav {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 72px;
-    left: 0;
-    float: none;
-    height: auto;
-    width: 100%;
-    margin-left: 3%;
-  }
-
-  .deco-hr {
-    width: 100%;
-    height: 1px;
-    background-color: #3e3c3c;
-  }
-
-  .topbar.visible .desktop-nav a {
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .topbar.visible .low-part-mobile {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    background-color: #e5e5e5;
-    width: 100%;
-    height: 11%;
-  }
-
-  .line-low-part-mobile {
-    width: 35%;
-    display: flex;
-    flex-direction: row;
-    height: 4px;
-    background-color: #050505;
-    margin: 56px 0 0 132px;
-    border-radius: 18%;
-  }
-}
-
 .for-mediacss2 {
   display: none;
 }
@@ -638,8 +582,237 @@ ul {
   background-color: rgb(112, 168, 112);
 }
 
+.parent-pop {
+  background-color: rgba(0, 0, 0, 0.692);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.parent-pop.show-modal {
+  display: flex;
+}
+
+.modal-popup {
+  display: block;
+  position: fixed;
+  height: 100%;
+  width: 90%;
+  top: 50px;
+}
+
+.p-modal-footer {
+  display: flex;
+  gap: 5%;
+  padding-bottom: 30px;
+}
+
+.button-popup-1 {
+  background: #ff6b00;
+  color: #fff;
+  height: 27px;
+  background-image: url(./images/Icon.svg);
+  background-repeat: no-repeat;
+  background-position: 94% 50%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 8px;
+  padding-left: 10px;
+  text-align: left;
+  text-decoration: none;
+  width: 110px;
+}
+
+.button-popup-2 {
+  background: #ff6b00;
+  color: #fff;
+  height: 27px;
+  background-image: url(./images/gitv.svg);
+  background-repeat: no-repeat;
+  background-position: 94% 50%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 8px;
+  padding-left: 10px;
+  text-align: left;
+  text-decoration: none;
+  width: 130px;
+}
+
+.modal-title1 {
+  display: none;
+}
+
+.p-modal-img1 {
+  display: none;
+}
+
+.portfolio-modal {
+  background-color: #fff;
+}
+
+.modal-para2 {
+  display: none;
+}
+
+.modal {
+  position: relative;
+  margin-left: 7%;
+  height: 100%;
+  z-index: 1;
+  display: none;
+  background-color: #979493;
+}
+
+.modal.active {
+  display: block;
+}
+
+.p-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 1%;
+}
+
+.p-modal-icons li {
+  border: 1px solid #8993a4;
+  padding: 10px;
+  text-align: center;
+}
+
+.p-modal-img {
+  margin-top: 5%;
+}
+
+.p-modal-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 93%;
+}
+
+.p-modal-header .modal-close-btn {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 200%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.p-modal-body {
+  padding: 10px 13px;
+}
+
+.modal-title {
+  padding-left: 3%;
+}
+
+.modal-listed {
+  width: 100%;
+  margin-top: -2%;
+  margin-bottom: 4%;
+}
+
+.mobl-img {
+  width: 100%;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+  .modal-popup.show-modal {
+    display: block;
+    position: fixed;
+    height: 86%;
+    margin: 2% 7% 0% 7%;
+  }
+
+  .p-modal-footer {
+    justify-content: start;
+    padding-left: 0;
+    padding-bottom: 50px;
+  }
+
+  .p-modal-para {
+    grid-area: 2 / 2 / span 1 / span 1;
+    width: 85%;
+    line-height: 30px;
+    margin: 0;
+    padding-top: 50px;
+  }
+
+  .button-popup-1 {
+    background: #ff6b00;
+    color: #fff;
+    height: 38px;
+    background-image: url(./images/Icon.svg);
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+  }
+
+  .button-popup-2 {
+    background: #ff6b00;
+    color: #fff;
+    height: 38px;
+    background-image: url(./images/gitv.svg);
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+  }
+
+  .p-modal-body {
+    grid-area: 2 / 1 / span 1 / span 1;
+    padding-right: 0;
+  }
+
+  .p-modal-header {
+    grid-area: 1 / 1 / span 1 / span 2;
+    padding-right: 0;
+  }
+
+  .portfolio-modal {
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+
+  .modal-title1 {
+    display: block;
+  }
+
+  .modal-title {
+    display: none;
+  }
+
+  .imgsoln {
+    margin-bottom: 7%;
+    width: 95%;
+  }
+
+  .p-modal-img1 {
+    display: block;
+  }
+
+  .project-bg {
+    display: none;
+  }
+
+  .p-modal-img {
+    display: none;
+  }
+
   .desktop-nav {
     display: flex;
     flex-direction: row;
@@ -719,10 +892,19 @@ ul {
     grid-auto-rows: 1fr;
   }
 
-  .gitem1 {
+  .mediacss-grid div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .mediacss-grid .gitem1 {
     background: #dfe1e6 url("./images/imgproblm.png");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .gitem2 {
@@ -755,15 +937,10 @@ ul {
     background-repeat: no-repeat;
   }
 
-  .mediacss-grid > div {
-    height: 55vh;
-    width: 100%;
-  }
-
   .buttongrid1 {
     color: #fff;
     background: #ff6b00;
-    height: 2rem;
+    height: 3rem;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -771,7 +948,6 @@ ul {
     border: 0;
     padding: 6px;
     width: 100%;
-    margin-top: 330px;
     transition: all 2s linear;
   }
 
@@ -1090,13 +1266,6 @@ ul {
     display: flex;
     flex-direction: column;
     width: 60%;
-
-    /* animation */
-    animation-name: movement;
-    animation-duration: 5s;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
   }
 
   @keyframes movement {
@@ -1216,5 +1385,66 @@ ul {
     font-size: 29px;
     line-height: 42px;
     margin: 0 0 40px 72px;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .topbar.visible {
+    position: fixed;
+    background-color: #2b2928;
+    height: 100%;
+  }
+
+  .topbar.visible .hamburger-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topbar.visible .myLogo {
+    display: none;
+  }
+
+  .topbar.visible .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    float: none;
+    height: auto;
+    width: 100%;
+    margin-left: 3%;
+  }
+
+  .deco-hr {
+    width: 100%;
+    height: 1px;
+    background-color: #3e3c3c;
+  }
+
+  .topbar.visible .desktop-nav a {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .topbar.visible .low-part-mobile {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 11%;
+  }
+
+  .line-low-part-mobile {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    height: 4px;
+    background-color: #050505;
+    margin: 56px 0 0 132px;
+    border-radius: 18%;
   }
 }
