@@ -186,13 +186,14 @@
                     like to chat please get in touch.
                 </h3>
 
-                <form action="https://formspree.io/f/xdobraqv" method="post" class="form1-mediacss">
+                <form action="https://formspree.io/f/xdobraqv" method="post" class="form1-mediacss" id="dataForm">
                 <input name="input1" type="text" required class="name" placeholder=" Full name" maxlength="30">
                 <div class="div-intermediate1"></div>
-                <input name="input2" type="email" required class="email" placeholder="Email address">
+                <input type="email" id="email" name="input2" required class="email1" placeholder="Email address">
                 <div class="div-intermediate2"></div>
                 <textarea name="text-area" required id="her" cols="30" rows="10" class="info-media" placeholder="Hello Mariane. Glad to see you |" maxlength="500"></textarea>
-                <button class="button-media" type="button">Get in touch</button>
+                <div id="security-validation"></div> 
+                <button class="button-media" type="submit">Get in touch</button>
                 </form>
     </section>
 <footer class="bottom-line">

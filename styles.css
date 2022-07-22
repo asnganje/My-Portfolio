@@ -395,7 +395,7 @@ ul {
   border: none;
 }
 
-.email {
+.email1 {
   margin: 0 40px 14px 50px;
   color: #979493;
   height: 18px;
@@ -732,8 +732,17 @@ ul {
   width: 100%;
 }
 
+#security-validation {
+  color: red;
+  font-size: 15px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+  #security-validation {
+    color: red;
+    font-size: 20px;
+  }
   .modal-popup.show-modal {
     display: block;
     position: fixed;
