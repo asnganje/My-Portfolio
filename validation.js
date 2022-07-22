@@ -5,6 +5,6 @@ thisForm.addEventListener('submit', (e) => {
   const mailAd = email.value;
   const safer = document.querySelector('#validation');
   if ( userRegex.test(mailAd) === true) {
-  e.preventDefault(); const info = 'Sorry! Email must be written in small letters only.'; safer.innerHTML = info;
+    e.preventDefault(); const info = 'Sorry! Email must be written in small letters only.'; safer.innerHTML = info;
   }
 });
