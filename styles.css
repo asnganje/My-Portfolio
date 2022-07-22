@@ -732,17 +732,18 @@ ul {
   width: 100%;
 }
 
-#security-validation {
+#validation {
   color: red;
   font-size: 15px;
 }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
-  #security-validation {
+  #validation {
     color: red;
     font-size: 20px;
   }
+
   .modal-popup.show-modal {
     display: block;
     position: fixed;
