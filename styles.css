@@ -191,17 +191,25 @@ ul {
 }
 
 .project-bg {
-  background-image: url("images/imgPlaceHolder.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  margin: 20px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+    background-image: url("images/darkBlue.jpg");
+    background-repeat: no-repeat;
+    /* background-size: 100% auto; */
+    background-size: cover;
+    margin: 20px;
+    height: 400px;
+    font-style: italic;
+    font-size: 22px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.professional-heading {
+#project-bigS {
+  display: none;
+}
+
+.professionalHeading {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -218,7 +226,7 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 0 16px 12px 16px;
+  margin:22px 16px 12px 16px;
 }
 
 .socials {
@@ -815,9 +823,18 @@ ul {
     display: block;
   }
 
-  .project-bg {
+  /* .project-bg {
     display: none;
-  }
+  } */
+
+  #recentProjectWorks {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 30% 30% 30%;
+    margin: 20px 115px 0 75px;
+    grid-auto-rows: g1fr;
+    text-decoration-color: #fff;
+}
 
   .p-modal-img {
     display: none;
@@ -894,20 +911,20 @@ ul {
     display: none;
   }
 
-  .mediacss-grid {
+  /* .mediacss-grid {
     display: grid;
     gap: 30px;
     grid-template-columns: 30% 30% 30%;
     margin: 20px 115px 0 75px;
     grid-auto-rows: 1fr;
-  }
-
+  } */
+/* 
   .mediacss-grid div {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+  } */
 
   .mediacss-grid .gitem1 {
     background: #dfe1e6 url("./images/imgproblm.png");

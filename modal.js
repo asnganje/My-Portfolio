@@ -3,9 +3,9 @@ const myMultipost = document.getElementById('portfolioModal');
 const myRecentWorks = [
   {
     img: '',
-    projectTitle: 'Multipost Stories',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['css', 'html', 'bootstrap', 'ruby'],
+    projectTitle: 'Awesome Books',
+    description: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list. It was built using plain HTML, CSS, and JavaScript.',
+    skills: ['html', 'css', 'javaScript'],
   },
 ];
 const loadRecentWorks = () => {
@@ -14,7 +14,7 @@ const loadRecentWorks = () => {
     const card = `
     <div class="img-data-and-btn-seemore">
             <div class="img-gymfit">
-            <img src="images/multi-post.png" class="multi-p-image" alt="multi">
+            <img src="images/awesomeBooks.png" class="multi-p-image" alt="multi">
             </div>
             <div class="div-informatn">
                 <div class="for-med-multipost">
@@ -28,7 +28,6 @@ const loadRecentWorks = () => {
                     <li>${myRecentWorks[i].skills[0]}</li>
                     <li>${myRecentWorks[i].skills[1]}</li>
                     <li>${myRecentWorks[i].skills[2]}</li>
-                    <li>${myRecentWorks[i].skills[3]}</li>
                 </ul>
                 </div>
                 <div class="button-see">
@@ -48,48 +47,30 @@ loadRecentWorks();
 const projectViewPost = document.getElementById('recentProjectWorks');
 const myRecentProjects = [
   {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
+    projectTitle: 'My To Do List',
+    description: 'A simple to do list created using React.Js, Javascript, HTML and CSS. It allows users to add, remove and mark a task as complete!',
+    skills: ['ReactJs', 'JavaScript', 'html', 'css'],
   },
 
   {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
+    projectTitle: 'Global Cryptocurrency - React App',
+    description: 'This project entails a React-Redux application that fetches digital currency data from a coins API. It allows users to filter information by different types of digital coins.',
+    skills: ['ReactJs', 'JavaScript', 'html', 'css'],
   },
 
   {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
-  },
-
-  {
-    projectTitle: 'Profesional Art Printing Data',
-    description: 'A daily section of privately personalized reads; no accounts or sign-ups required. has been the industry&#x27;s standards dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-    skills: ['html', 'bootstrap', 'ruby'],
-  },
+    projectTitle: 'Math Magician',
+    description: 'A website that allows users to do simple calculations and read a math quote. Built with: React.js, JavaScript, CSS3 and HTML5.',
+    skills: ['ReactJs', 'JavaScript', 'html', 'css'],
+  }
 ];
 
 const loadRecentProjects = () => {
   let cardRecentProjects = '';
   for (let i = 0; i < myRecentProjects.length; i += 1) {
     const card1 = `
-        <div class="project-bg">
-        <h3 class="professional-heading">${myRecentProjects[i].projectTitle}</h3>
+        <div class="project-bg" id = "project-bigS>
+        <h3 class="professionalHeading">${myRecentProjects[i].projectTitle}</h3>
         <p class="daily-section">${myRecentProjects[i].description}</p>
         <ul class="socials">
         <li>${myRecentProjects[i].skills[0]}</li>
@@ -108,14 +89,14 @@ loadRecentProjects();
 const projectPopUp = document.getElementById('popupPage');
 const myPopUp = [
   {
-    projectTitle: 'Multi Post Stories',
-    projectTitleDesktop: 'Keeping track of hundreds  of components website',
-    skills: ['html', 'bootstrap', 'ruby'],
-    img: './images/modal-portfolio-mobile.svg',
-    image: './images/desktopverson.png',
-    pageDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    pageDescriptionDesktop: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#x27;s standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. remaining ',
-    links: ['https://github.com/asnganje', 'https://asnganje.github.io/My-Portfolio/'],
+    projectTitle: 'Awesome Books',
+    projectTitleDesktop: 'Awesome Books',
+    skills: ['html', 'bootstrap', 'JavaScript'],
+    img: './images/awesomeBooks.png',
+    image: './images/awesomeBooks.png',
+    pageDescription: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list. It was built using plain HTML, CSS, and JavaScript.',
+    pageDescriptionDesktop: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list. It was built using plain HTML, CSS, and JavaScript.',
+    links: ['https://asnganje.github.io/awesomebookES6/', 'https://asnganje.github.io/My-Portfolio/'],
   },
 
 ];
